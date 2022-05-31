@@ -1,0 +1,16 @@
+.page-footer {
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background: $background-header-footer;
+}
+.page-footer__box {
+  display: flex;
+}
+.page-footer__titles {
+  margin-bottom: 20px;
+  font-size: $fs2;
+  text-transform: uppercase;
+  color: $white-color;
+}
