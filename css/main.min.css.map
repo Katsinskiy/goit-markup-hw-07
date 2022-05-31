@@ -7,7 +7,7 @@
         "../sass/layout/_site-nav.scss",
         "../sass/layout/_contacts.scss",
         "../sass/base/_hero.scss",
-        "../sass/base/_peculiarities.scss"
+        "../sass/base/_peculiarities.scss",
     ],
     "names": [],
     "file": "main.min.css"
