@@ -1,0 +1,9 @@
+.study {
+    display:flex;
+    flex-wrap: wrap;}
+      
+.study__item {
+    width: calc((100% - 60px) / 3);
+    margin-right: 30px;}
+    
+.study__item:last-child {margin-right: 0;}

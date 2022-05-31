@@ -1,0 +1,50 @@
+.adress-nav {
+    display: flex;
+    align-items: center;}
+        
+    .adress-nav__meil {
+    color: var(--secondary-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    display: block;
+    text-decoration: none;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
+    
+    .adress-nav__meil:hover {color: var(--accent-color);}
+    .adress-nav__meil:focus {color: var(--accent-color);}
+    
+    .adress-nav .adress-nav__meil {
+    margin-right: 50px;}
+    
+    .adress-nav__tel {
+    color: var(--secondary-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    display: block;
+    text-decoration: none;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);;}
+
+    .adress-nav__tel:hover {color: var(--accent-color);}
+    .adress-nav__tel:focus {color: var(--accent-color);}
+
+    .adress-nav__icon {
+    fill: currentColor; margin-right: 10px;
+    align-items: center;}
+
+
+    .adress-nav .link {color: var(--primary-text-color);
+    font-weight: 500;
+    line-height: 0.87;
+    letter-spacing: 0.02em;}
+        
+    .adress-nav .link:hover {color: var(--accent-color);}
+    .adress-nav .link:focus {color: var(--accent-color);}
+
+    .main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;}
