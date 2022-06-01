@@ -12,6 +12,13 @@
     pointer-events: none;
     visibility: hidden;}
 
+.form-privacy {
+    font-size: $fs1;
+    line-height: $lh2;
+    display: block;
+
+}
+
 .modal {
     width: 528px;
     min-height: 581px;
