@@ -1,0 +1,59 @@
+.adress-nav {
+    display: flex;
+    align-items: center;}
+        
+    .adress-nav__meil {
+    color: $secondary-text-color;
+    font-weight: $fw3;
+    line-height: $lh1;
+    letter-spacing: $ls2;
+    display: block;
+    text-decoration: none;
+    transition-duration: 250ms;
+    transition-timing-function: $cubic;
+
+&:hover {color: $primary-accent-color;}
+&:focus {color: $primary-accent-color;}
+}
+    
+    
+    
+    .adress-nav .adress-nav__meil {
+    margin-right: 50px;}
+    
+    .adress-nav__tel {
+    color: $secondary-text-color;
+    font-weight: $fw3;
+    line-height: $lh1;
+    letter-spacing: $ls2;
+    display: block;
+    text-decoration: none;
+    transition-duration: 250ms;
+    transition-timing-function: $cubic;
+
+ &:hover {color: $primary-accent-color;}
+&:focus {color: $primary-accent-color;}
+}
+
+   
+
+    .adress-nav__icon {
+    fill: currentColor; margin-right: 10px;
+    align-items: center;}
+
+
+    .adress-nav .link {color: $primary-text-color;
+    font-weight: $fw3;
+    line-height: 0.87;
+    letter-spacing: 0.02em;
+
+&:hover {color: $primary-accent-color;}
+&:focus {color: $primary-accent-color;}
+}
+        
+    
+
+    .main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;}   

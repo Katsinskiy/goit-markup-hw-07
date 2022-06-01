@@ -1,0 +1,35 @@
+.button__nav {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;}
+
+.btn {
+    display: flex;
+    cursor: pointer;
+    color: $primary-text-color;
+    text-decoration: none;
+    padding: 6px 22px;
+    outline: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    border-width: 1px 0;
+    border-style: solid none;
+    border-color: transparent;
+    border-radius: 4px;
+    background: $team-color;
+    transition: 0.2s;
+    text-align: center;
+    transition-duration: 250ms;
+    transition-timing-function: $cubic;
+
+&:hover {background-color: $primary-accent-color; color: $white-color;}
+&:focus {background-color: $primary-accent-color; color: $white-color;}
+&:hover {box-shadow: 0px 4px 4px $box-color;}
+}
+
+ .btn__item { font-size: $fw3;}
+  
+.button__nav .btn__item + .btn__item {margin-left: 8px;}
+
+.btn.active {background-color: $primary-accent-color;}

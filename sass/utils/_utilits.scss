@@ -25,7 +25,7 @@ a {
     cursor: pointer;
   }
   body {
-    background-color: $primary-white-color;
+    background-color: $white-color;
     color: $primary-text-color;
     font-family: $ff1;
     letter-spacing: $ls3;
@@ -71,6 +71,6 @@ a {
 }
   
 .page-header {
-    background-color: $primary-white-color;
+    background-color: $white-color;
     padding: 24px 0 25px;
     border-bottom: 1px solid #ECECEC;}
