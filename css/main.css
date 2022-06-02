@@ -635,12 +635,6 @@ body {
   visibility: hidden;
 }
 
-.form-privacy {
-  font-size: 12px;
-  line-height: 1.16;
-  display: block;
-}
-
 .modal {
   width: 528px;
   min-height: 581px;
@@ -688,7 +682,7 @@ body {
 .modal__label {
   color: #757575;
   font-size: 12px;
-  line-height: 1.16;
+  line-height: 1.14;
   display: block;
   margin-bottom: 5px;
 }

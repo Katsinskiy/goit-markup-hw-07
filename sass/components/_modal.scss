@@ -12,12 +12,7 @@
     pointer-events: none;
     visibility: hidden;}
 
-.form-privacy {
-    font-size: $fs1;
-    line-height: $lh2;
-    display: block;
 
-}
 
 .modal {
     width: 528px;
@@ -63,7 +58,7 @@
 
 .modal__label {color: $secondary-text-color;
     font-size: $fs1;
-    line-height: $lh2;
+    line-height: $lh1;
     display: block;
     margin-bottom: 5px;}
     
